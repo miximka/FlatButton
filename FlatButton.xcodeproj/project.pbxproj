@@ -141,7 +141,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = Cindori;
 				TargetAttributes = {
 					75670D7E1DB7A6BF00F6EA18 = {
@@ -396,6 +396,7 @@
 		75935E381D534A1A0069AF86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = ZQK6SX26CE;
 				INFOPLIST_FILE = FlatButton/Info.plist;
@@ -410,6 +411,7 @@
 		75935E391D534A1A0069AF86 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = ZQK6SX26CE;
 				INFOPLIST_FILE = FlatButton/Info.plist;
