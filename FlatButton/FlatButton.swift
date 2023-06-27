@@ -24,16 +24,6 @@ internal extension CALayer {
     }
 }
 
-//unused for now
-internal extension NSColor {
-    func tintedColor() -> NSColor {
-        var h = CGFloat(), s = CGFloat(), b = CGFloat(), a = CGFloat()
-        let rgbColor = usingColorSpaceName(NSColorSpaceName.calibratedRGB)
-        rgbColor?.getHue(&h, saturation: &s, brightness: &b, alpha: &a)
-        return NSColor(hue: h, saturation: s, brightness: b == 0 ? 0.2 : b * 0.8, alpha: a)
-    }
-}
-
 open class FlatButton: NSButton, CALayerDelegate {
     
     internal var containerLayer = CALayer()
